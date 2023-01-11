@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monstra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Monstra</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#loja" class="nav-link">
+                            <i class="bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#galeria" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Galeria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#product" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/m4.jpg" alt="Produtos" class="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/m2.jpg" alt="Espaço Interno da Loja">
+                    </div>
+                    <div class="carousel-item" max-width="100%" data-bs-interval="3000">
+                        <img src="./images/m3.jpg" alt="Escadaria">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target = "#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target = "#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target = "#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/m1.jpg" class="d-block w-100 rounded" alt="Frente da Loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>A Loja Monstra saiu da jaula em Agosto de 2018, trazendo uma nova abordagem na experiência de comprar gibi. Afinal de contas, comprar arte – seja ela em quadrinhos, livros, música – não é uma coisa banal. É DOIDERA, PÔ!
+
+                                A Monstra nasceu no mesmo lugar onde ficava a amada Gibiteria, que funcionou por 9 anos no mercado sendo uma livraria especializada em HQ’s. Em 2018 a Gibiteria encerrou suas atividades e o Gui, que já trampava lá, deu uma reformulada na parada e assim nasceu a Loja de quadrinhos mais lôka do rolê!
+                                Tá, não é tão empolgante quanto ser picado por uma aranha radioativa mas tá valendo!
+                                
+                                Agora, com a Monstra Online, a gente quer te passar o mais próximo da experiência de comprar aqui na Loja física.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="galeria"  class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossa <span class="text-colored">galeria</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/m5.jpg" alt="" class="d-block w-100 rounded mb-2 hs-100">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/m6.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/m7.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="product" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-product">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#chainsaw-man" class="fw-bold text-start nav-link text-colored active">Chainsaw-man</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#naruto" class="fw-bold text-start nav-link text-colored">Naruto</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jujutsu" class="fw-bold text-start nav-link text-colored">Jujutsu</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bleach" class="fw-bold text-start nav-link text-colored">Bleach</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fairy-tail" class="fw-bold text-start nav-link text-colored">Fairy Tail</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="chainsaw-man">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/c1.jpg" alt="1">
+                                        <h5 class="text-colored fw-bold mt-2">Chainsaw Man • 1</h5>
+                                        <p>
+                                            Denji é um jovem extremamente pobre que junto de Pochita, seu demônio de estimação, trabalha feito um condenado como Caçador de Demônios para pagar a imensa dívida que possui. Mas sua vida de miséria está prestes a mudar graças a uma traição brutal!! Aqui começa a história de um novo anti-herói que com um demônio em seu corpo, caça demônios!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/c2.jpg" alt="2">
+                                        <h5 class="text-colored fw-bold mt-2">Chainsaw Man • 2</h5>
+                                        <p>
+                                            Apertar peitos!! Motivado por esse desejo avassalador, Denji encara o Demônio dos Morcegos em uma batalha mortal!! Será que ele conseguirá alcançar seu objetivo no fim?! Ou então…?! E quem é o Demônio das Armas de Fogo, o inimigo da humanidade de que Makima falou?! A luta de Denji, o cãozinho da Segurança Pública, ruma para novos desdobramentos!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/c3.jpg" alt="3">
+                                        <h5 class="text-colored fw-bold mt-2">Chainsaw Man • 3</h5>
+                                        <p>
+                                            Um demônio misterioso prende todos os integrantes da 4ª Divisão Especial Antidemônios da Segurança Pública e exige que Denji seja morto!! Encurralados nessa situação desesperadora, parte dos Caçadores de Demônios concorda aceitar a proposta dele…! Entretanto, pensando no beijo que vai ganhar de recompensa, Denji tem uma ideia incrivelmente macabra!! A engenhosidade humanamente demoníaca de nosso protagonista entra em ação com tudo!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/c4.jpg" alt="4">
+                                        <h5 class="text-colored fw-bold mt-2">Chainsaw Man • 4</h5>
+                                        <p>
+                                            Os membros da Divisão Especial Antidemônios da Segurança Pública sofrem um atentado a tiros por parte de um grupo misterioso, que pretende tomar o coração de Denji, o que deixa os sobreviventes em estado de alerta constante. Diante das circunstâncias, Denji e Power começam um treinamento com aquele que é reconhecido como o mais forte dentre os Caçadores de Demônios. Não há dúvidas de que esse sujeito tem uns parafusos a menos e faz de tudo para tentar matar a dupla…!! Em uma atmosfera que mescla seriedade e insanidade, as bandeiras do contra-ataque são erguidas!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/c5.jpg" alt="5">
+                                        <h5 class="text-colored fw-bold mt-2">Chainsaw Man • 5</h5>
+                                        <p>
+                                            Aki está prestes a enfrentar o Demônio que era usado por Himeno. O que será que está se passando na mente desse jovem que anseia por vingança?! Enquanto isso, Denji enfrenta novamente o Samurai Sword!! Quem sairá vitorioso desta batalha sanguinolenta entre motosserra e katana?! O confronto pelo coração de Denji toma rumos inesperados!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/c6.jpg" alt="6">
+                                        <h5 class="text-colored fw-bold mt-2">Chainsaw Man • 6</h5>
+                                        <p>
+                                            A proposta inesperada de Reze para que ambos fujam juntos abala o coração e a inocência de Denji… Durante este momento singelo, acontece uma reviravolta e uma tempestade explosiva começa a soprar seus ventos mortais! O que será de Denji e Reze após uma batalha sangrenta que envolve amor, desejo, humanos e demônios?!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/c7.jpg" alt="7">
+                                        <h5 class="text-colored fw-bold mt-2">Chainsaw Man • 7</h5>
+                                        <p>
+                                            Após Denji ser descrito no noticiário da TV como um “demônio aterrorizante”, o mundo todo descobre sua existência!! Com diversos assassinos internacionais extremamente insanos e habilidosos prestes a invadir Tokyo, toda a Divisão Especial prepara um plano para protegê-lo!! A matança desenfreada mergulhará a cidade em um redemoinho de caos infernal!!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="naruto">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/n1.jpg" alt="Naruto • A Verdadeira História de Itachi: Uma Luz Resplandecente">
+                                        <h5 class="text-colored fw-bold mt-2">Naruto • A Verdadeira História de Itachi: Uma Luz Resplandecente</h5>
+                                        <p>
+                                            Itachi Uchiha ficou conhecido como o assassino de seu clã e traidor de Konoha, entretanto sua história não começou dessa forma. Em seus primeiros anos, Itachi era um ninja genial que sonhava em mudar o mundo dos Shinobis. E seus primeiros anos nesse caminho com certeza foram radiantes…
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/n2.jpg" alt="Naruto The Last • 1">
+                                        <h5 class="text-colored fw-bold mt-2">Naruto The Last • 1</h5>
+                                        <p>
+                                            Começa a destruição da lua e meteoros caem sobre a Terra! Enquanto o último dia do mundo se aproxima, Hanabi Hyuuga é sequestrada por Toneri Otsusuki na Vila Oculta da Folha. Naruto, Sakura, Shikamaru e Hinata saem então para uma missão de resgate. Muito além da obra original, esta é a novelização da história final!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/n3.jpg" alt="Naruto Gold • 68">
+                                        <h5 class="text-colored fw-bold mt-2">Naruto Gold • 68</h5>
+                                        <p>
+                                            Os sentimentos de Naruto conectaram os corações dos shinobis, que estavam perdendo as esperanças frente ao poder de Obito. No campo de batalha, as tropas juntam forças com os cinco Kages e partem em direção à Shinju! Enquanto isso, Naruto e Sasuke combinam seus poderes para impedir o Tsukuyomi Infinito!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/n4.jpg" alt="Naruto Gold • 44">
+                                        <h5 class="text-colored fw-bold mt-2">Naruto Gold • 44</h5>
+                                        <p>
+                                            Após descobrir o quanto seu irmão o amava, Sasuke decide seguir o próprio caminho. Ele parte então em busca da bijuu unindo suas forças com os Akatsuki que estão atrás do mesmo objetivo. Enquanto isso, Naruto não pode aceitar a notícia do falecimento de seu mestre.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jujutsu">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j1.jpg" alt="Jujutsu Kaisen • 1">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 1</h5>
+                                        <p>
+                                            Apesar do estudante colegial Yuuji Itadori ter grande força física, ele se inscreve no Clube de Ocultismo. Certo dia, eles encontram um “objeto amaldiçoado” e retiram o selo, atraindo criaturas chamadas de “maldições”. Itadori corre em socorro de seus colegas, mas será que ele será capaz de abater essas criaturas usando apenas a força física?!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j2.jpg" alt="Jujutsu Kaisen • 2">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 2</h5>
+                                        <p>
+                                            Um útero amaldiçoado surge repentinamente em um reformatório. Itadori e seus colegas do primeiro ano foram designados para salvar as pessoas que não conseguiram fugir do edifício! Mas o grupo depara-se com uma situação desesperadora: o útero se transformou em um espírito amaldiçoado de nível especial. Itadori tenta revidar, trocando de corpo com Sukuna, mas será que o plano vai dar certo?!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j3.jpg" alt="Jujutsu Kaisen • 3">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 3</h5>
+                                        <p>
+                                            Aoi Toudou e Mai Zenin, da Escola Técnica Superior de Jujutsu de Kyoto, aparecem diante de Fushiguro e Kugisaki! O que Fushiguro respondeu para Toudou, quando questionado sobre o tipo de garota que ele gosta? Enquanto isso, Itadori é enviado para o local em que um espírito amaldiçoado provocou um incidente, fazendo com que o feiticeiro treine suas habilidades na prática!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j4.jpg" alt="Jujutsu Kaisen • 4">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 4</h5>
+                                        <p>
+                                            Itadori investiga os assassinatos causados por uma maldição e acaba conhecendo Junpei, um garoto que é fascinado por Mahito, o responsável pelas mortes. Qual será a reação de Itadori ao ver o novo amigo transformado em fantoche da maldição?
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j5.jpg" alt="Jujutsu Kaisen • 5">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 5</h5>
+                                        <p>
+                                            Tem início o Intercâmbio da Escola Irmã de Kyoto. O primeiro dia do torneio em equipe terá como vencedor o grupo que exorcizar primeiro uma maldição de nível 2, mas o briguento Todou ataca de surpresa o grupo da Escola de Tokyo, e Itadori recebe a tarefa de enfrentá-lo. O que ele não esperava é que o restante da equipe da Escola de Kyoto apareceria para se juntar ao confronto!!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j7.jpg" alt="Jujutsu Kaisen • 7">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 7</h5>
+                                        <p>
+                                            Os feiticeiros repelem o ataque da maldição especial Hanami, mas os dedos do Sukuna e os fetos das Pinturas da Morte, sob a guarda da Escola de Jujutsu, são roubados. Uma nova ameaça surge com a encarnação das Pinturas da Morte. Desconhecendo esse perigo, Itadori e seus amigos são incumbidos da missão de exorcizar uma maldição que ataca perto de portas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j8.jpg" alt="Jujutsu Kaisen • 8">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 8</h5>
+                                        <p>
+                                            Itadori e seu grupo recolhem um dos dedos de Sukuna após abater Kechizu e Eso, dois fetos encarnados das “Nove Pinturas da Morte”. Como resultado, eles recebem a recomendação para serem promovidos a feiticeiros de nível 1. Quais são as intenções de Gojou, que orquestra tudo nos bastidores? A história volta ao passado, para narrar o incidente com Gojou e Getou quando eram estudantes do 2º ano na Escola Técnica de Jujutsu.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j9.jpg" alt="Jujutsu Kaisen • 9">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 9</h5>
+                                        <p>
+                                            Para reaver seu corpo físico, Mekamaru, ou melhor, Kokichi Muta, se alia aos espíritos amaldiçoados. Mas o acordo entre eles é quebrado e o estudante se vê enfrentando Mahito. Será que Muta conseguirá escapar da morte com sua técnica secreta? Enquanto isso, em 31 de outubro, uma cortina recai sobre um distrito de Tokyo, marcando o início do “Incidente em Shibuya”.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/j13.jpg" alt="Jujutsu Kaisen • 13">
+                                        <h5 class="text-colored fw-bold mt-2">Jujutsu Kaisen • 13</h5>
+                                        <p>
+                                            Dagon se transforma em um espírito aterrorizador e, com a torrente infinita de energia amaldiçoada que obtém, ataca Naobito, Maki e Nanami. Enquanto isso, o grupo de Mestres das Maldições que seguia Getou no passado invoca a figura mais abominável numa tentativa de recuperar o corpo de seu ente querido.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bleach">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/b1.jpg" alt="Bleach Remix • 2">
+                                        <h5 class="text-colored fw-bold mt-2">Bleach Remix • 2</h5>
+                                        <p>
+                                            A antiga ligação entre shinigami e quincy se manifestam neste mundo! Ichigo Kurosaki é o shinigami que purifica os hollows. Uryuu Ishida é o quincy que quer destruí-los. Os dois são incompatíveis e competem para determinar aquele que elimará mais criaturas. Entretanto, os hollows não param de se multiplicar, fazendo com que a cidade de Karakura seja destruída…!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/b2.jpg" alt="Bleach Remix • 4">
+                                        <h5 class="text-colored fw-bold mt-2">Bleach Remix • 4</h5>
+                                        <p>
+                                            O palco vai do mundo dos vivos para a Soul Society! Começa uma batalha feroz contra os shinigamis! Enquanto corriam atrás de Rukia, que havia sido capturada, Ichigo e os outros invadem a Soul Society, o domínio dos shinigamis. Ao mesmo tempo que são perseguidos por todos os shinigamis por serem “convidados indesejados”, Gin Ichimaru, capitão do Terceiro Esquadrão, surge mostrando um sorriso frio.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/b3.jpg" alt="BLEACH REMIX • VOL.01">
+                                        <h5 class="text-colored fw-bold mt-2">BLEACH REMIX • VOL.01</h5>
+                                        <p>
+                                            Ichigo Kurosaki, 15 anos. Ocupação: Colegial. E então… O ataque violento de um espírito maligno chamado “Hollow” faz suas irmãs caírem uma após a outra… A única forma de salvá-las é se tornar um Shinigami e lutar! Diante da morte iminente, o colegial Ichigo Kurosaki precisará tomar uma decisão que poderá mudar seu destino…!!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="fairy-tail">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/ft3.jpg" alt="Fairy Tail • 1">
+                                        <h5 class="text-colored fw-bold mt-2">Fairy Tail • 1</h5>
+                                        <p>
+                                            Lucy, uma jovem feiticeira que tem o poder de evocar Espíritos Celestiais, sonha em um dia se juntar à famosa Guilda de Magos Fairy Tail. É na Guilda que seus integrantes encontram os trabalhos e missões que irão encarar – que podem ser desde ir em busca de um tesouro valioso, algum item raro ou até dissolver maldições de uma cidade inteira. Depois de cruzar seu caminho com Natsu e o gatinho voador Happy, seu desejo de se tornar membro da Fairy Tail pode se tornar realidade!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/ft4.jpg" alt="Fairy Tail • 2">
+                                        <h5 class="text-colored fw-bold mt-2">Fairy Tail • 2</h5>
+                                        <p>
+                                            No primeiro trabalho da feiticeira celestial, Natsu, Lucy e Happy precisam se infiltrar na biblioteca do Duque Everlue para encontrar e destruir o exemplar único da obra DayBreak. Por sorte, o proprietário do livro está a procura de uma bela candidata loira para trabalhar como empregada em sua mansão.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/ft1.jpg" alt="Fairy Tail • 62">
+                                        <h5 class="text-colored fw-bold mt-2">Fairy Tail • 62</h5>
+                                        <p>
+                                            A última batalha contra Zeref… Já exaustos de lutas anteriores, Elza, Wendy e Jellal se deparam com mais um problema: o Dragão Mágico Acknowlogia! Quando tudo parecia perdido, a chama da esperança se acende com o surgimento de uma figura misteriosa… Ela diz que possui um plano para derrotar Acknowlogia, mas será que dará certo?! Em paralelo, Natsu está de cara a cara com Zeref para o embate final. Qual o desfecho dessa luta entre irmãos?!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/ft2.jpg" alt="Fairy Tail • 63">
+                                        <h5 class="text-colored fw-bold mt-2">Fairy Tail • 63</h5>
+                                        <p>
+                                            Natsu derrota Zeref, e agora, o último inimigo da humanidade é Acknowlogia! Ele havia sido preso na fenda temporal, mas conseguiu escapar, se separando em “corpo” e “mente”! No mundo real, seu corpo destrói tudo que vê pela frente, e no espaço-tempo, sua mente aprisiona e pretende eliminar todos os Matadores de Dragões existentes. O cenário é desesperador, mas Lucy tem um plano! E Natsu também!! A decisiva batalha das fadas pelo sorriso de seus companheiros se encerra aqui!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb3 ">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb3 ">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb3 ">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                            <p>
+                                Rua Campo Belo n° 145, Bairro Jardim Ester - São Paulo - SP 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script>
+    jQuery("input.telefone")
+    $('#telefone').mask('(99) 99999-9999');
+</script>
+</body>
+</html>
